@@ -1,4 +1,4 @@
-# Dolgozat - bridge instant szaktanári és 1 
+
 
 
 
@@ -42,8 +42,6 @@
   - backup konfigurálás
 
 ## Tartomány beléptetés: 2 pont
-
-# Ponthatár:
 
  
 
