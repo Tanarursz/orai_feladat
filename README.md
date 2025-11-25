@@ -14,7 +14,7 @@
 ## Alapvető Szerver beállítások: 9 pont
 - hálózati kártyák megfelelő beállítása /3p
 - ip-cím (a legutolsó kiadható ip-cím legyen az ip-címe, és a tartomány maximum 10 gépet szolgál ki) /2p
-- Számítógép neve (A szerver neve legyen "DolgozatSZ") /1p
+- Számítógép neve (A szerver neve legyen "wszerver") /1p
 - szükséges eszközök telepítése /3p
 
 
