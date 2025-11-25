@@ -1,47 +1,26 @@
+# Feladatsor – Windows Server és kliensoldali hálózati környezet kialakítása
 
+## 1. VirtualBox környezet előkészítése
+- Készíts egy Windows Server virtuális gépet a megfelelő hardverbeállításokkal.
+- Állítsd be a hálózati adaptereket az óraterven meghatározott módon.
+- Csatold be a szükséges telepítőlemez képfájlt.
 
+## 2. Szerver alapbeállításai
+- Konfiguráld a szerver hálózati kártyáit.
+- Állíts be statikus IP-címet a szerver számára a megadott tartomány utolsó kiosztható címével.
+- Add meg a szerver nevét az előírt módon.
+- Telepítsd a szükséges szerepköröket és szolgáltatásokat.
 
+## 3. Kliensgép alapbeállításai
+- Állítsd be a kliensgép hálózati kártyáját a megadott tartomány szerint.
+- Konfigurálj statikus IP-címet a kliens számára vagy DHCP-vel lépj be a hatókörbe.
+- Nevezd át a klienst a megadott névre.
 
-## Virtualbox helyes konfigurálása: 2 pont
+## 4. DHCP-szerver és hatókör konfigurálása
+- Hozz létre DHCP-hatókört, amely legfeljebb 10 IP-címet oszt ki.
+- Állítsd be a tiltólistát úgy, hogy az első három cím tiltott legyen.
+- Állítsd be a megfelelő alapértelmezett átjárót.
 
-
-## Alapvető kliens beállítások: 3 pont
-- hálózati kártyák megfelelő beállítása /2p
-- ip-cím beállítása /1p
-- Számítógép neve (DolgozatK) /1p
-
-
-## Alapvető Szerver beállítások: 9 pont
-- hálózati kártyák megfelelő beállítása /3p
-- ip-cím (a legutolsó kiadható ip-cím legyen az ip-címe, és a tartomány maximum 10 gépet szolgál ki) /2p
-- Számítógép neve (A szerver neve legyen "wszerver") /1p
-- szükséges eszközök telepítése /3p
-
-
-## Dhcp és hatókörének beállítása: 3 pont
-- ne legyen 10-nél több kiosztható ip-cím /1p
-- tiltó lista megfelelő beállítása (az első 3 cím legyen tiltó listás) 1p
-- default gateway megfelelő beállítása /1p
-
-## Active Directory tartományvezérlő telepítés, konfigurálás: 3 pont
-- taromány legyen a következő: wess.lan /1p 
-- felhasználók hozzáadása: /1p
-    - Teszt Géza
-    - Teszt Iván
-    - Teszt Emese
-- megosztott mappa létrehozása: /1p
-    - Csak írás jog
-    - automata felcsatolás
-
-## Távoliasztal beállítása: 1 pont és tesztelése
-
-## nyomtató szerver beállítása: 2 pont
-
-## Windows Server Backup: 2 pont
-  - meghajtó létrehozása
-  - backup konfigurálás
-
-## Tartomány beléptetés: 2 pont
-
- 
-
+## 5. Távoli asztal beállítása
+- Engedélyezd a távoli asztal funkciót a szerveren.
+- Teszteld a kapcsolatot egy kliensgépről.
